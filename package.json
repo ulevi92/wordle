@@ -6,13 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "start": "concurrently \"json-server data/db.json\" \"yarn preview\""
+    "preview": "vite preview"
   },
   "dependencies": {
-    "concurrently": "^7.3.0",
-    "json-server": "^0.17.0",
-    "node-ts": "^5.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

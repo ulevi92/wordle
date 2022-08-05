@@ -1,7 +1,7 @@
 import { LetterType, SolutionType } from "../types/dbTypes";
 
-const urlSolutions = "http://localhost:3000/solutions";
-const urlLetters = "http://localhost:3000/letters";
+const urlSolutions = "https://wordle-server.vercel.app/solutions";
+const urlLetters = "https://wordle-server.vercel.app/letters";
 
 export const fetchSolutions = async () => {
   try {
