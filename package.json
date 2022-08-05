@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "concurrently \"json-server data/db.json\" \"yarn preview\""
   },
   "dependencies": {
     "concurrently": "^7.3.0",
